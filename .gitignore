@@ -1,6 +1,9 @@
 # worktree
 .worktrees/
 
+create-worktree.sh
+remove-worktree.sh
+
 # Logs
 logs
 *.log
