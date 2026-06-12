@@ -18,7 +18,7 @@ if ! command -v trae-cn >/dev/null 2>&1; then
   exit 1
 fi
 
-branch="feature/${project}"
+branch="${project}"
 repo_root="$(git rev-parse --show-toplevel)"
 worktree_dir="${repo_root}/.worktrees/repo_${project}"
 

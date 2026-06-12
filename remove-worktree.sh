@@ -13,7 +13,7 @@ if [[ ! "$project" =~ ^[A-Za-z0-9._-]+$ ]]; then
   exit 1
 fi
 
-branch="feature/${project}"
+branch="${project}"
 repo_root="$(git rev-parse --show-toplevel)"
 worktree_dir="${repo_root}/.worktrees/repo_${project}"
 
